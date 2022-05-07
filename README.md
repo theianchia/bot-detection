@@ -43,7 +43,6 @@
 ### File Description
 * `train.csv` the training set from the bidder dataset
 * `test.csv` the test set from the bidder dataset
-* `sampleSubmission.csv` a sample submission file in the correct format
 * `bids.csv` the bid dataset
 
 <p align="right">(<a href="#top">back to top</a>)</p>
