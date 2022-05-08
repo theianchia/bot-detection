@@ -91,13 +91,6 @@ For the bid dataset
   <img src='images/corr.png' alt='fishers' width='70%'>
 </div>
 
-> Before standardisation of features
-
-<div>
-  <img src='images/corr_std.png' alt='fishers' width='70%'>
-</div>
-
-> After standardisation of features
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
