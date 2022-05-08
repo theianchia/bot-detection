@@ -109,12 +109,17 @@ For the bid dataset
 ## Model Development
 
 ### Features Used
-* prop_bot_ip - proportion of IPs used by a bidder that was also used by a bot
-* total_auction - total number of auctions participated by a bidder
-* total_ip - total number of IPs used by a bidder
-* total_url - total number of URLs used by a bidder
 * bids_per_url - mean number of bids made per URL
 * bids_per_auction - mean number of bids made per auction
+* ip_per_device - mean number of IPs used for every device a bidder used
+* url_per_auction - mean number of URLs used per auction
+* lg_total_bids - log transformation of the total number of bids made by a bidder
+* lg_total_device - log transformation of the total number of devices used by a bidder
+* lg_total_country - log transformation of the total number of country an IP belongs to
+* lg_total_ip - log transformation of the total number of IPs used
+* lg_total_url - log transformation of the total number of URLs used
+* lg_total_auction - log transformation of the total number of auctions a bidder joined
+
 
 ### Models Used
 Used an ensemble of 
