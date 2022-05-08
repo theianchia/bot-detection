@@ -83,10 +83,16 @@ For the bid dataset
 ### Correlation Matrix
 * measure of the linear relationship between 2 or more variables
 
+![Corr](images/corr.png)
+![Corr Std](images/corr_std.png)
+> After standardisation of features
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Fisher's Score
 * find a subset of features, such that in the data space spanned by the selected features, the distances between data points in different classes are as large as possible, while the distances between data points in the same class are as small as possible
+
+![Fisher's Score](images/fishers.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
