@@ -5,6 +5,7 @@
 <div align="center">
   <h2>Facebook Recruiting IV: Human or Robot?</h2>
   <p>Predict if an online bid is made by a machine or a human</p>
+  <img src='images/score.png' alt='score' width='80%'>
 </div>
 
 
@@ -83,8 +84,16 @@ For the bid dataset
 ### Correlation Matrix
 * measure of the linear relationship between 2 or more variables
 
-![Corr](images/corr.png)
-![Corr Std](images/corr_std.png)
+<div>
+  <img src='images/corr.png' alt='fishers' width='70%'>
+</div>
+
+> Before standardisation of features
+
+<div>
+  <img src='images/corr_std.png' alt='fishers' width='70%'>
+</div>
+
 > After standardisation of features
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -92,12 +101,24 @@ For the bid dataset
 ### Fisher's Score
 * find a subset of features, such that in the data space spanned by the selected features, the distances between data points in different classes are as large as possible, while the distances between data points in the same class are as small as possible
 
-![Fisher's Score](images/fishers.png)
+<div>
+  <img src='images/fishers.png' alt='fishers' width='70%'>
+</div>
+
+> Ranks of the variables based on fisher’s score in descending order
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Model Development
+
+### Features Used
+* prop_bot_ip - proportion of IPs used by a bidder that was also used by a bot
+* total_auction - total number of auctions participated by a bidder
+* total_ip - total number of IPs used by a bidder
+* total_url - total number of URLs used by a bidder
+* bids_per_url - mean number of bids made per URL
+* bids_per_auction - mean number of bids made per auction
 
 ### Models Used
 Used an ensemble of 
