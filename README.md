@@ -1,13 +1,12 @@
 <div id="top"></div>
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <h2>Facebook Recruiting IV: Human or Robot?</h2>
   <p>Predict if an online bid is made by a machine or a human</p>
   <img src='images/score.png' alt='score' width='80%'>
 </div>
-
+<br />
 
 
 <!-- TABLE OF CONTENTS -->
@@ -17,22 +16,26 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#file-description">File Description</a></li>
+        <li><a href="#data-description">Data Description</a></li>
+        <li><a href="#data-fields">Data Fields</a></li>
+        <li><a href="#scoring">Scoring</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#exploratory-data-analysis">Exploratory Data Analysis</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#correlation-matrix">Correlation Matrix</a></li>
+        <li><a href="#fishers-score">Fisher's Score</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#model-development">Model Development</a>
+      <ul>
+        <li><a href="#features-used">Features Used</a></li>
+        <li><a href="#models-used">Models Used</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
