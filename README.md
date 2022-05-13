@@ -107,6 +107,7 @@ For the bid dataset
 
 
 ## Model Development
+Used SMOTE to balance class distribution by randomly increasing the minority class
 
 ### Features Used
 * bids_per_url - mean number of bids made per URL
@@ -126,7 +127,5 @@ Used an ensemble of
 * Random Forest Classifier
 * CatBoost Classifier
 * Gradient Boosting Classifier
-
-Performed hyperparameter tuning using GridSearchCV, and model training using k-FoldCV
 
 <p align="right">(<a href="#top">back to top</a>)</p>
